@@ -1,0 +1,103 @@
+body {
+            margin: 0;
+            background-image: url("https://static.cozycozy.com/images/catalog/bg/ciudad-autonoma-de-buenos-aires.jpg");
+            background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        
+        img {
+            width: 50px;
+            height: auto;
+        }
+        nav {
+          background-color: #f0f0f0;
+          padding: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    
+        nav ul {
+          list-style: none;
+          display: flex;
+          padding: 0;
+          margin: 0;
+        }
+    
+        nav ul li {
+          margin-right: 20px;
+        }
+    
+        nav ul li a {
+          text-decoration: none;
+          color: #000000;
+          transition: color 0.5s ease;
+        }
+        nav ul li a:hover{
+            color: #474747;
+        }
+    
+        nav form {
+          display: flex;
+          align-items: center;
+        }
+    
+        nav input[type="text"] {
+          padding: 8px;
+          margin-right: 10px;
+          border: 2px solid #ccc;
+      border-radius: 25px;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      font-size: 16px;
+      outline: none; /* Elimina el borde predeterminado al enfocar */
+        }
+
+        nav input[type="text"]:hover{
+            border-color: #1e1e1e; /* Cambia el color del borde al enfocar o pasar el mouse */
+      
+        }
+    
+        nav button {
+          padding: 8px 15px;
+          background-color: #ffffff;
+          color: black;
+          border: 0;
+          cursor: pointer;
+          margin-right: 5px;
+            border-radius: 20px;
+            transition: background-color 0.7s ease;
+        }
+        nav button:hover {
+      background-color: #a6a6a6;
+
+    }
+    
+        nav button[type="reset"] {
+          background-color: #ff0000;
+          color: white;
+        }
+        nav button[type="reset"]:hover{
+      background-color: #910000;
+    }
+    .social-icons {
+        margin-top: 20px;
+      }
+  
+      .social-icons img {
+        width: 50px; /* Ajusta el tamaño de los iconos */
+        height: 50px;
+        transition: opacity 0.3s ease;
+      }
+  
+      .social-icons img:hover {
+        opacity: 0.7; /* Cambia la opacidad al pasar el mouse */
+      }
+    
+h1, p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
