@@ -19,6 +19,8 @@ body {
           display: flex;
           justify-content: space-around;
           align-items: center;
+                    position: fixed;
+                    width: 100%;
         }
     
         nav ul {
@@ -87,6 +89,7 @@ body {
     }
     .social-icons {
         margin-top: 20px;
+                position: fixed;
       }
     .social-icons a {
         display: block;
