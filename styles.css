@@ -1,6 +1,6 @@
 body {
             margin: 0;
-            background-image: url("https://static.cozycozy.com/images/catalog/bg/ciudad-autonoma-de-buenos-aires.jpg");
+            background-image: url("https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/yoi7tkkpimmxajzcvny5?_a=BACADKGT");
             background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
             background-repeat: no-repeat; /* Evita que la imagen se repita */
             background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
@@ -17,7 +17,7 @@ body {
           background-color: #f0f0f0;
           padding: 10px;
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
           align-items: center;
         }
     
@@ -54,6 +54,7 @@ body {
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
       font-size: 16px;
       outline: none; /* Elimina el borde predeterminado al enfocar */
+      margin-bottom: 0px;
         }
 
         nav input[type="text"]:hover{
@@ -116,7 +117,7 @@ h1, h2 {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
-    margin: 20px;
+    margin: 20px 0;
     color: white;
   }
   .team-member h3 {
@@ -150,6 +151,7 @@ h1, h2 {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
@@ -185,4 +187,8 @@ h1, h2 {
 
   button[type="submit"]:hover {
     background-color: #a6a6a6;
+  }
+
+  .cajag {
+    margin-inline: 5%;
   }
