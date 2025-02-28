@@ -1,6 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
             margin: 0;
-            background-image: url("https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/yoi7tkkpimmxajzcvny5?_a=BACADKGT");
+            background-image: url("NYC-by-nitght-1-scaled.jpg");
             background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
             background-repeat: no-repeat; /* Evita que la imagen se repita */
             background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
@@ -88,8 +91,9 @@ body {
       background-color: #910000;
     }
     .social-icons {
-        margin-top: 20px;
-                position: fixed;
+        margin-top: 0px;
+        position: fixed;
+        margin-inline: 10px;
       }
     .social-icons a {
         display: block;
@@ -105,15 +109,18 @@ body {
       .social-icons img:hover {
         opacity: 0.7; /* Cambia la opacidad al pasar el mouse */
       }
+#arriba {
+  margin-top: 50px;
+}
 
 h1, h2 {
     color: white;
     font-size: 56px;
-    margin-left: 5%;
+    margin-left: 70px;
 }
 .texto {
     color: white;
-    margin-left: 5%;
+    margin-left: 70px;
     width: 75%;
 }
 .team-member {
@@ -194,5 +201,37 @@ h1, h2 {
   }
 
   .cajag {
-    margin-inline: 5%;
+    margin-inline: 70px;
   }
+
+
+
+
+  .output {
+    display: none;
+    margin-top: 1.9px;
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+.cajita {
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+  
+.foto {
+  width: 100%;
+  height: auto;
+}
+
+.chico {
+  font-size: 10px;
+  margin: 0 3px;
+  color: #474747;
+}
+.grande {
+  margin: 0 0;
+}
