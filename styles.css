@@ -19,6 +19,7 @@ body {
         nav {
           background-color: #f0f0f0;
           padding: 10px;
+          margin-top: 0;
           display: flex;
           justify-content: space-around;
           align-items: center;
@@ -215,6 +216,8 @@ h1, h2 {
     padding: 8px;
     border-radius: 5px;
     text-align: center;
+    max-height: 350px;
+    overflow-y: scroll;
 }
 .cajita {
     background-color: white;
@@ -234,4 +237,24 @@ h1, h2 {
 }
 .grande {
   margin: 0 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Color de fondo de la pista */
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color del pulgar (la parte que se arrastra) */
+  border-radius: 6px; /* Bordes redondeados del pulgar */
+  transition: background 0.7s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar al pasar el mouse */
 }
