@@ -5,6 +5,7 @@
       "name": "Australia",
       "time": "Australia/Sydney",
       "imageUrl": "sydney.jpg",
+      "description": "",
       "cities": [
         {
           "name": "Sydney, Australia",
@@ -25,6 +26,7 @@
       "name": "Japan",
       "time": "Asia/Tokyo",
       "imageUrl": "tokyo.jpg",
+      "description": "",
       "cities": [
         {
           "name": "Tokyo, Japan",
@@ -45,6 +47,7 @@
       "name": "Brazil",
       "imageUrl": "riodj.jpg",
       "time": "America/Sao_Paulo",
+      "description": "",
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
